@@ -85,8 +85,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* background-image: url(img/bg3.jpg);
-    background-size: 100%; */
 }
 
 .container {
@@ -131,15 +129,15 @@ body {
 
 .image .image-box img {
     position: absolute;
-    width: 650px;
-    margin-left: 5rem;
+    width: 45%;
+    margin-left: 3rem;
 }
 
 .image .image-box .bable img {
     position: absolute;
-    width: 450px;
+    width: 30%;
     /* z-index: 1; */
-    margin-left: 11rem;
+    margin-left: 10rem;
     margin-top: 6rem;
 }
 
@@ -149,7 +147,7 @@ body {
 
 .image-box1 img{
     position: absolute;
-    width: 400px;
+    width: 35%;
     z-index: 1;
     margin-top: 6rem;
     margin-left: -15rem;
@@ -203,15 +201,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 5rem;
     margin-left: 2.5rem;
-    /* background-color: blanchedalmond; */
 }
 
 .text {
-    width: 50%;
+    width: 35%;
     font-family: poppins;
     margin-top: -4rem;
 }
@@ -234,10 +231,13 @@ body {
 
 .ilustrasi {
     margin-right: -10rem;
+    width: 50%;
+    height: 70vh;
 }
 
 .ilustrasi img {
-    width: 700px;
+    width: 90%;
+    
 }
 
 /* our work */
@@ -270,7 +270,7 @@ body {
 }
 
 .card img {
-    width: 250px;
+    width: 50%;
     margin-left: 5rem;
     margin-bottom: 1rem;
     
@@ -325,7 +325,7 @@ body {
 }
 
 .card1 img {
-    width: 300px;
+    width: 85%;
     margin-top: -5rem;
 }
 
@@ -780,6 +780,7 @@ footer .container3 .card p{
     }
 
     .navbar {
+        width: 100%;
         height: 6.5rem;
         z-index: 9999;
         position: fixed;
@@ -824,6 +825,7 @@ footer .container3 .card p{
 
     /* hero */
     .hero{
+        width: 100%;
         height: 120vh;
     }
 
@@ -850,37 +852,20 @@ footer .container3 .card p{
     margin-left: 16rem;
 }
 
-.image .image-box img {
-    position: absolute;
-    width: 600px;
-    z-index: 1;
-    margin-left: 10rem;
-    margin-top: -4rem;
-}
-
-
-.image-box1 img{
-    position: absolute;
-    width: 400px;
-    z-index: 1;
-    margin-top: 6rem;
-    margin-left: -3rem;
-    animation: animasiroket 1.5s ease-in-out infinite alternate;
-}
 .image .image-box {
     margin-left: 30rem;
 }
 
 .image .image-box .bable img {
     position: absolute;
-    width: 350px;
-    margin-left: 2rem;
+    width: 50%;
+    margin-left: 1rem;
     margin-top: 9rem;
 }
 
 .image .image-box img {
     position: absolute;
-    width: 550px;
+    width: 75%;
     z-index: 1;
     margin-left: -8rem;
     margin-top: 2rem;
@@ -892,7 +877,7 @@ footer .container3 .card p{
 
 .image-box1 img{
     position: absolute;
-    width: 400px;
+    width: 55%;
     z-index: 1;
     margin-top: 6rem;
     margin-left: -4rem;
@@ -901,35 +886,41 @@ footer .container3 .card p{
 
 /* digital */
 .digital {
+    width: 100%;
     height: 135vh;
 }
 .container2 {
     width: 95%;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: left;
     align-items: center;
+    justify-content: left;
     margin-top: 8rem;
-    margin-left: 3rem;
-    /* background-color: blanchedalmond; */
+    margin-left: 1%;
 }
 
 .text {
     width: 50%;
     font-family: poppins;
-    margin-left: 3rem;
+    margin-left: 2%;
     margin-top: 3rem;
 }
 
+.ilustrasi {
+    width: 70%;
+    height: fit-content;
+    margin-left: 5%;
+}
+
 .ilustrasi img {
-    width: 500px;
+    width: 100%;
     margin-top: -5rem;
-    margin-left: 9rem;
+    margin-left: -4%;
 }
 
 /* work */
 .work {
+    width: 100%;
     height: 150vh;
 }
 .work .container2 {
@@ -944,7 +935,7 @@ footer .container3 .card p{
     height: 30%;
 }
 .card img {
-    width: 200px;
+    width: 34%;
     margin-left: 34%;
     margin-top: -4rem;
     margin-bottom: -1rem;
@@ -952,11 +943,13 @@ footer .container3 .card p{
 
 /* choose */
 .choose{
+    width: 100%;
     height: 90vh;
+    background-color: rgb(11, 53, 189);
 }
 
 .choose .tittle h1 {
-    margin-top: -14rem;
+    margin-top: -10rem;
 }
 
 .choose .container2 {
@@ -974,7 +967,7 @@ footer .container3 .card p{
 }
 
 .card1 img {
-    width: 200px;
+    width: 70%;
     margin-top: -7rem;
     margin-bottom: -2rem;
     margin-left: 2rem;
@@ -1182,14 +1175,17 @@ footer .card4 {
 
 
 /* mobile */
-@media (max-width:576px){
+@media (max-width:578px){
     html {
         font-size: 45%;
     }
 
     /* navbar */
+    .navbar {
+        width: 100%;
+    }
     .navbar .nav-box .logo img {
-        width: 120px;
+        width: 30%;
     }
 
     .navbar .nav-box .feather {
@@ -1198,6 +1194,7 @@ footer .card4 {
 
     /* hero */
     .hero{
+        width: 100%;
         height: 100vh;
     }
 
@@ -1208,19 +1205,20 @@ footer .card4 {
 
 .image-box1 img{
     position: absolute;
-    width: 190px;
+    width: 40%;
     margin-top: -10rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
     animation: animasiroket 1.5s ease-in-out infinite alternate;
 }
 .image .image-box {
+    width: 100%;
     margin: 0 10%;
     margin-top: 5rem;
 }
 
 .image .image-box .bable img {
     position: absolute;
-    width: 350px;
+    width: 75%;
     margin-left: 5rem;
     margin-top: 9rem;
     z-index: -1;
@@ -1228,25 +1226,32 @@ footer .card4 {
 
 .image .image-box img {
     position: absolute;
-    width: 450px;
+    width: 100%;
     z-index: -1;
-    margin-left: -1rem;
+    margin-left: -3rem;
     margin-top: 6rem;
 }
 
 
 /* digital */
 .digital {
-    margin-top:-50rem;
+    width: 100%;
     height: 115vh;
+    background-color: yellowgreen;
+}
+
+.ilustrasi {
+    width: 100%;
+    height: fit-content;
 }
 
 .ilustrasi img {
+    width: 100%;
     margin-left: -1rem;
 }
 
 .digital .tittle {
-    margin-top: -5rem;
+    margin-top: 1rem;
 }
 
 .digital .tittle p {
@@ -1263,10 +1268,13 @@ footer .card4 {
 
 /* work */
 .work {
-    height: 110vh;
+    width: 100%;
+    height: 130vh;
+    background-color: yellow;
 }
 
 .work .container2 .card img {
+    width: 50%;
     margin-left: 29%;
 }
 
@@ -1284,6 +1292,8 @@ footer .card4 {
 
 /* choose */
 .choose {
+    width: 100%;
+    background-color: wheat;
     height: 130vh;
     
 }
@@ -1308,7 +1318,7 @@ footer .card4 {
 }
 
 .choose .container2 .card1 img {
-    width: 140px;
+    width: 70%;
     margin-left: 7rem;
 }
 
@@ -1323,6 +1333,7 @@ footer .card4 {
 
 /* footer */
 footer{
+    width: 100%;
     height: 35vh;
     }
 
