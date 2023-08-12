@@ -779,6 +779,10 @@ footer .container3 .card p{
         font-size: 62.5%;
     }
 
+    body {
+        width: 100%;
+    }
+
     .navbar {
         width: 100%;
         height: 6.5rem;
@@ -1178,6 +1182,11 @@ footer .card4 {
 @media (max-width:578px){
     html {
         font-size: 45%;
+    }
+
+    body {
+        width: 100%;
+        height: 500vh;
     }
 
     /* navbar */
