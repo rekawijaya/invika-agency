@@ -195,6 +195,7 @@ body {
     color:rgb(209, 114, 5);
     font-size: 1.2rem;
     font-weight: 600;
+    margin-bottom: 8rem;
 }
 .container2 {
     width: 95%;
@@ -213,12 +214,6 @@ body {
     margin-top: -4rem;
 }
 
-.title h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: rgb(5, 192, 209);
-    text-transform: capitalize;
-}
 
 .text ul li {
     font-size: 1.5rem;
@@ -306,6 +301,31 @@ body {
     margin-top: -6rem;
 }
 
+.card5 {
+    width: 35vh;
+    height: 30vh;
+}
+
+.card5 h4 {
+    text-align: center;
+    color:rgb(209, 114, 5);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card5 p {
+    text-align: center;
+    color: black;
+}
+
+.card5 img {
+    width: 85%;
+    margin-top: -4rem;
+    margin-bottom: -1rem;
+    margin-left: 1rem;
+}
 .card1 {
     width: 35vh;
     height: 30vh;
@@ -326,7 +346,9 @@ body {
 
 .card1 img {
     width: 85%;
-    margin-top: -5rem;
+    margin-top: -2rem;
+    margin-bottom: -3rem;
+    margin-left: 1rem;
 }
 
 .cta {
@@ -458,6 +480,7 @@ footer .container3 .card p{
 }
 
 .service {
+    width: 100%;
     height: 70vh;
     margin-top: -10rem;
     padding-bottom: 10rem;
@@ -468,33 +491,19 @@ footer .container3 .card p{
     height: 130vh;
 }
 
-.service .container-about img{
-    width: 500px;
-    margin-top: 10rem;
-    margin-left: -6rem;
-}
-
 .container-about .image1 {
-    margin-left: 25rem;
-    margin-top: -10rem;
+    margin-left: 20%;
+    margin-top: -10%;
     margin-bottom: 10rem;
     width: 60%;
 }
 
 .container-about .image1 img{
-    width: 800px;
+    width: 100%;
     margin-top: -5rem;
 }
 
-.container-about .container2 .card1 {
-    background-color: #ffffff;
-    width: 45vh;
-}
 
-.container-about .container2 .card1 img{
-    margin-top: -4rem;
-    margin-left: 2rem;
-}
 
 .container-about .container2 .card1 h4{
     font-size: 1.5rem;
@@ -964,6 +973,18 @@ footer .container3 .card p{
     gap: 2rem;
 }
 
+.card5 {
+    width: 29vh;
+    height: 25vh;
+}
+
+.card5 img {
+    width: 70%;
+    margin-top: -7rem;
+    margin-bottom: -1rem;
+    margin-left: 4rem;
+}
+
 .card1 {
     width: 29vh;
     height: 25vh;
@@ -971,9 +992,9 @@ footer .container3 .card p{
 
 .card1 img {
     width: 70%;
-    margin-top: -7rem;
-    margin-bottom: -2rem;
-    margin-left: 2rem;
+    margin-top: -4rem;
+    margin-bottom: -3rem;
+    margin-left: 3rem;
 }
 
 .choose .cta {
@@ -1196,7 +1217,7 @@ footer .card4 {
     }
 
     .navbar .nav-box .hamburger{
-        margin-right: 4%;
+        margin-right: 2%;
     }
     .navbar .nav-box .feather {
         width: 45px;
@@ -1301,8 +1322,8 @@ footer .card4 {
 /* choose */
 .choose {
     width: 100%;
-    height: 140vh;
-    margin-top: -40rem;
+    height: 180vh;
+    margin-top: -10rem;
     
 }
 
@@ -1317,8 +1338,37 @@ footer .card4 {
     gap: 8rem;
 }
 
+.card5 {
+    width: 30vh;
+    height: 20vh;
+    margin-bottom: 6rem;
+}
+
+.card5 h4 {
+    text-align: center;
+    color:rgb(209, 114, 5);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card5 p {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.card5 img {
+    width: 65%;
+    margin-top: -9rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+}
 .choose .container2 .card1 {
     height: 18vh;
+    margin-top: -10rem;
+    margin-bottom: 13rem;
 }
 
 .choose .container2 .card1 p {
@@ -1328,6 +1378,7 @@ footer .card4 {
 .choose .container2 .card1 img {
     width: 70%;
     margin-left: 5rem;
+    margin-bottom: -4rem;
 }
 
 .choose .container2 .card1 h4 {
@@ -1336,7 +1387,7 @@ footer .card4 {
 }
 
 .choose .cta {
-    margin-top: 120rem;
+    margin-top: 130rem;
 }
 
 /* footer */
@@ -1368,7 +1419,7 @@ footer{
 
 /* service page */
     .service .container-about img{
-    width: 400px;
+    width: 120%;
     margin-top: 7rem;
     margin-left: -3rem;
 }
@@ -1390,10 +1441,18 @@ footer{
     }
 
     .container-about .caption-service .list img {
+        width: 50%;
         margin-left: 10rem;
+        margin-top: -3rem;
+    }
+
+    .container-about .caption-service .list h3 {
+        font-size: 2rem;
+        margin-top: -3rem;
     }
 
     .container-about .caption-service .list ul{
+        width: 95%;
         margin-left: 5rem;
     }
 
