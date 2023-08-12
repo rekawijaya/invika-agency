@@ -1179,7 +1179,7 @@ footer .card4 {
 
 
 /* mobile */
-@media (max-width:575.98px){
+@media (max-width:576px){
     html {
         font-size: 45%;
     }
@@ -1215,7 +1215,7 @@ footer .card4 {
     position: absolute;
     width: 40%;
     margin-top: -10rem;
-    margin-left: 5%;
+    margin-left: 12%;
     animation: animasiroket 1.5s ease-in-out infinite alternate;
 }
 .image .image-box {
