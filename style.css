@@ -1182,7 +1182,7 @@ footer .card4 {
 
 
 /* mobile */
-@media (max-width:450px){
+@media (max-width:576px){
     html {
         font-size: 45%;
     }
