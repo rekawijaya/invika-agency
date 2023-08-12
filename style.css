@@ -1,0 +1,1487 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    background: linear-gradient(27deg, #ffffff, #5cfff750, #5acec84c, #00ffe531, #ffffff);
+}
+
+.navbar {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+}
+
+.nav-box {
+    width: 95%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.nav-link ul li {
+    margin-left: 3rem;
+    list-style: none;
+}
+
+.nav-link ul li a{
+    font-family: poppins;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(209, 114, 5);
+    text-transform: uppercase;
+}
+
+.nav-link ul li a:hover {
+    color: rgb(16, 165, 153);
+}
+
+.hamburger {
+    display: none;
+}
+.feather {
+    width: 60px;
+    height: 60px;
+    stroke:rgb(209, 114, 5);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.feather:hover{
+    stroke: rgb(16, 165, 153);
+}
+
+/* hero section */
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(img/bg3.jpg);
+    background-size: 100%; */
+}
+
+.container {
+    width: 95%;
+    height: 90vh;
+    /* background-color: bisque; */
+}
+
+.caption{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    font-family: poppins;
+}
+
+.caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 165, 153);
+    line-height: 3.8rem;
+    margin-bottom: 4rem;
+}
+
+.caption span {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(209, 114, 5);
+}
+
+.caption p {
+    font-size: large;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.image .image-box {
+    margin-left: 30rem;
+    margin-top: -8rem;
+}
+
+.image .image-box img {
+    position: absolute;
+    width: 650px;
+    margin-left: 5rem;
+}
+
+.image .image-box .bable img {
+    position: absolute;
+    width: 450px;
+    /* z-index: 1; */
+    margin-left: 11rem;
+    margin-top: 6rem;
+}
+
+.image-box1 {
+    margin-left: 23rem;
+}
+
+.image-box1 img{
+    position: absolute;
+    width: 400px;
+    z-index: 1;
+    margin-top: 6rem;
+    margin-left: -15rem;
+    animation: animasiroket 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes animasiroket {
+    0% {
+        margin-top: 5rem;
+    }
+
+
+    100% {
+        margin-top: 8rem;
+    }
+}
+
+/* digital section */
+
+.digital {
+    width: 100%;
+    height: 120vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 -5rem 5rem 4rem #ffffff; */
+}
+
+.tittle {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom:-5rem;
+    font-family: poppins;
+}
+
+.tittle h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(16, 165, 153);
+    text-transform: uppercase;
+}
+
+.tittle p {
+    text-align: center;
+    color:rgb(209, 114, 5);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.container2 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+    /* background-color: blanchedalmond; */
+}
+
+.text {
+    width: 50%;
+    font-family: poppins;
+    margin-top: -4rem;
+}
+
+.title h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(5, 192, 209);
+    text-transform: capitalize;
+}
+
+.text ul li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    list-style: none;
+    color:rgb(209, 114, 5) ;
+}
+
+.ilustrasi {
+    margin-right: -10rem;
+}
+
+.ilustrasi img {
+    width: 700px;
+}
+
+/* our work */
+.work {
+    width: 100%;
+    height: 100vh;
+    margin-top: -7rem;
+    font-family: poppins;
+}
+
+.work .container2 {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.work .tittle {
+    padding: 5rem 0rem;
+}
+
+.work .tittle h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:rgb(16, 165, 153) ;
+    text-transform: uppercase;
+}
+
+.card {
+    width: 30%;
+    height: 70vh;
+}
+
+.card img {
+    width: 250px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+.card h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(209, 114, 5);
+}
+
+.card ul {
+    margin-left: 4rem;
+}
+
+/* why */
+.choose {
+    width: 100%;
+    height: 110vh;
+}
+
+.choose .tittle h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:rgb(16, 165, 153) ;
+    text-transform: uppercase;
+}
+
+.choose .container2 {
+    height: 85vh;
+    margin-top: -6rem;
+}
+
+.card1 {
+    width: 35vh;
+    height: 30vh;
+}
+
+.card1 h4 {
+    text-align: center;
+    color:rgb(209, 114, 5);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card1 p {
+    text-align: center;
+}
+
+.card1 img {
+    width: 300px;
+    margin-top: -5rem;
+}
+
+.cta {
+    width: 100%;
+    height: 30vh;
+}
+
+.cta h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:rgb(16, 165, 153) ;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.btn a{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:rgb(16, 165, 153);
+    background-color:rgb(209, 114, 5) ;
+    text-transform: uppercase;
+    padding: 0.6rem 0.5rem;
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    background-color:rgb(16, 165, 153);
+    color:rgb(209, 114, 5);
+}
+
+
+footer {
+    width: 100%;
+    height: 55vh;
+    padding-bottom: 20rem;
+    background-color: rgb(6, 51, 54);
+}
+
+footer .container3 {
+    width: 95%;
+    height: 42vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    gap: 5rem;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    /* background-color: antiquewhite; */
+}
+
+footer .card {
+    width: 45vh;
+    height: fit-content;
+}
+
+footer .container3 .card p{
+    color: white;
+}
+
+.container3 .card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 3rem;
+    text-transform: capitalize;
+}
+
+.container3 .card .icon {
+    margin-top: 1rem;
+}
+
+.icon .feather {
+    width: 35px;
+    height: 35px;
+    stroke:rgb(255, 255, 255) ;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    margin-left: 1rem;
+}
+
+.icon .feather:hover {
+    stroke:rgb(209, 114, 5);
+}
+
+.card4 {
+    width: 45vh;
+    margin-top: 3.5rem;
+}
+
+.card4 p {
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.card4 p a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.card4 p a:hover {
+    color: rgb(209, 114, 5);
+}
+
+.copyright {
+    margin-top: 2rem;
+}
+.copyright p {
+    text-align: center;
+    color: white;
+}
+
+/* SERVICE PAGE */
+.container-about h2 {
+    margin-bottom: -4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:rgb(16, 165, 153) ;
+    text-align: center;
+}
+
+.service {
+    height: 70vh;
+    margin-top: -10rem;
+    padding-bottom: 10rem;
+}
+
+.service .container-about {
+    margin-top: 10rem;
+    height: 130vh;
+}
+
+.service .container-about img{
+    width: 500px;
+    margin-top: 10rem;
+    margin-left: -6rem;
+}
+
+.container-about .image1 {
+    margin-left: 25rem;
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+    width: 60%;
+}
+
+.container-about .image1 img{
+    width: 800px;
+    margin-top: -5rem;
+}
+
+.container-about .container2 .card1 {
+    background-color: #ffffff;
+    width: 45vh;
+}
+
+.container-about .container2 .card1 img{
+    margin-top: -4rem;
+    margin-left: 2rem;
+}
+
+.container-about .container2 .card1 h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: -3rem;
+}
+
+.container-about .caption-service {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-around;
+    margin-top: 8rem;
+    gap: 5rem;
+}
+
+.container-about .caption-service .list{
+    background-color: rgba(16, 165, 153, 0.495);
+    width: 30%;
+    border-radius: 10px;
+    transition: 300ms;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.685);
+}
+
+.container-about .caption-service .list a {
+    text-decoration: none;
+    color:rgb(187, 100, 0) ;
+}
+
+.container-about .caption-service .list:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.container-about .caption-service .list ul{
+    margin-left: 2.5rem;
+}
+
+
+
+.container-about .caption-service img {
+    width: 150px;
+    margin-left: 6rem;
+}
+
+/* ABOUT PAGE */
+.about {
+    width: 100%;
+    height: 160vh;
+}
+
+.about .container {
+    width: fit-content;
+    height: fit-content;
+}
+
+.about .container .image img {
+    width: 800px;
+}
+
+.about .container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 165, 153);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .caracter img{
+    width: 450px;
+}
+
+.about .container .content .text h2 {
+    text-transform: capitalize;
+    color:rgb(209, 114, 5);
+    margin-top: 4rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.about .container .content .text h4 {
+    color:rgb(209, 114, 5);
+    text-transform: capitalize;
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+}
+
+
+.text ul {
+    margin-top: -2rem;
+}
+.text ul li p {
+    color:rgb(0, 0, 0);
+    font-size: 0.9rem;
+    margin-left: 3rem;
+}
+
+.about .container .image{
+    display: flex;
+    justify-content: center;
+}
+
+.about .container .image img {
+    width: 600px;
+    margin-top: 5rem;
+}
+
+
+/* PORTFOLIO */
+.portfolio {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .container {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: 90vh;
+    margin-top: 5rem;
+    /* background-color: rgb(181, 0, 0); */
+}
+
+.portfolio .container h1 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 165, 153);
+    padding-bottom: 1rem;
+}
+
+.portfolio .container h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(209, 114, 5);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.portfolio .container .container-card {
+    /* background-color: #ffffff; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.portfolio .container .container-card .card:hover {
+    scale: 1.1;
+}
+
+.portfolio .container .container-card .card {
+    position: relative;
+    /* background-color: yellowgreen; */
+    width: 44.5vh;
+    height: 23vh;
+    border: 2px solid #ff0000;
+    transition: 300ms ease-in-out;
+}
+
+.portfolio .container .container-card .card-0 {
+    position: relative;
+    /* background-color: yellowgreen; */
+    width: 44.5vh;
+    height: 23vh;
+    border: 2px solid #ff0000;
+    transition: 300ms ease-in-out;
+    opacity: 0%;
+}
+
+.portfolio .container .container-card .card-0 a img{
+    width: 400px;
+    margin-left: -1rem;
+    padding: 0 1rem;
+}
+
+
+
+.portfolio .container .container-card .card a img {
+    width: 400px;
+    margin-left: -1rem;
+    padding: 0 1rem;
+}
+
+.portfolio .container .container-card .card p {
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -5.4rem;
+    margin-left:0rem;
+    padding-top: 1.5rem;
+    background-color: rgba(255, 255, 254, 0.932);
+}
+
+
+/* CONTACT PAGE */
+.contact {
+    height: 100vh;
+}
+
+.contact .container{
+    margin-left: 2.5rem;
+
+}
+
+.contact .container h2 {
+    padding-top: 10rem;
+    font-size: 2.5rem;
+    color: rgb(16, 165, 153);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact .container-card{
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.contact .container-card .card {
+    width: 16%;
+    height: 25vh;
+    transition: 300ms ease-in-out;
+}
+
+.contact .container-card .card img {
+    width: 150px;
+    margin-left: 2rem;
+}
+
+.contact .container-card .card a {
+    text-decoration: none;
+    color:rgb(209, 114, 5) ;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.contact .container-card .card:hover {
+    scale: 1.2;
+}
+
+
+
+
+
+
+/* media queryes */
+@media (max-width:1366px){
+    html {
+        font-size: 75%;
+    }
+    
+}
+
+/* tablet */
+
+@media (max-width:768px){
+    html {
+        font-size: 62.5%;
+    }
+
+    .navbar {
+        height: 6.5rem;
+        z-index: 9999;
+        position: fixed;
+    }
+
+    .navbar .nav-box .logo img {
+        width: 135px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-link {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 30rem;
+        height: 100vh;
+        transition: 300ms ease-in-out;
+        background-color: hsla(0, 0%, 63%, 0.877);
+    }
+
+    .nav-link.active {
+        right: 0;
+    }
+
+    .nav-link ul {
+        display: inline-block;
+        margin:2rem 2rem;
+    }
+
+    .nav-link ul li {
+        margin-bottom: 5rem;
+        
+    }
+    .nav-link ul li a{
+        font-size: 2rem;
+        
+    }
+
+
+    /* hero */
+    .hero{
+        height: 120vh;
+    }
+
+    .hero .container {
+        margin-top: -8rem;
+        margin-left: -2rem;
+    }
+
+    .hero .container .caption h1{
+        font-size: 2.8rem;
+        width: 100%;
+        line-height: 4rem;
+    }
+
+    .hero .container .caption span {
+        font-size: 2.8rem;
+    }
+    .hero .image {
+        margin-top: -6rem;
+    }
+.image .image-box svg {
+    position: absolute;
+    width: 400px;
+    margin-left: 16rem;
+}
+
+.image .image-box img {
+    position: absolute;
+    width: 600px;
+    z-index: 1;
+    margin-left: 10rem;
+    margin-top: -4rem;
+}
+
+
+.image-box1 img{
+    position: absolute;
+    width: 400px;
+    z-index: 1;
+    margin-top: 6rem;
+    margin-left: -3rem;
+    animation: animasiroket 1.5s ease-in-out infinite alternate;
+}
+.image .image-box {
+    margin-left: 30rem;
+}
+
+.image .image-box .bable img {
+    position: absolute;
+    width: 350px;
+    margin-left: 2rem;
+    margin-top: 9rem;
+}
+
+.image .image-box img {
+    position: absolute;
+    width: 550px;
+    z-index: 1;
+    margin-left: -8rem;
+    margin-top: 2rem;
+}
+
+.image-box1 {
+    margin-left: 2rem;
+}
+
+.image-box1 img{
+    position: absolute;
+    width: 400px;
+    z-index: 1;
+    margin-top: 6rem;
+    margin-left: -4rem;
+    animation: animasiroket 1.5s ease-in-out infinite alternate;
+}
+
+/* digital */
+.digital {
+    height: 135vh;
+}
+.container2 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: left;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 3rem;
+    /* background-color: blanchedalmond; */
+}
+
+.text {
+    width: 50%;
+    font-family: poppins;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.ilustrasi img {
+    width: 500px;
+    margin-top: -5rem;
+    margin-left: 9rem;
+}
+
+/* work */
+.work {
+    height: 150vh;
+}
+.work .container2 {
+    justify-content: center;
+    display: flex;
+    gap:4rem;
+    margin-left: 2rem;
+}
+
+.work .container2 .card {
+    width: 90%;
+    height: 30%;
+}
+.card img {
+    width: 200px;
+    margin-left: 34%;
+    margin-top: -4rem;
+    margin-bottom: -1rem;
+}
+
+/* choose */
+.choose{
+    height: 90vh;
+}
+
+.choose .tittle h1 {
+    margin-top: -14rem;
+}
+
+.choose .container2 {
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    margin-top: 16rem;
+    margin-left: 2rem;
+    gap: 2rem;
+}
+
+.card1 {
+    width: 29vh;
+    height: 25vh;
+}
+
+.card1 img {
+    width: 200px;
+    margin-top: -7rem;
+    margin-bottom: -2rem;
+    margin-left: 2rem;
+}
+
+.choose .cta {
+    margin-top: 11rem;
+}
+
+/* footer */
+footer {
+    height: 40vh;
+}
+footer .container3 {
+    width: 96%;
+    height: 28vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 1.4rem;
+    gap: 3rem;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+footer .card {
+    width: 20vh;
+}
+
+footer .card .feather {
+    width: 20px;
+    height: 20px;
+}
+
+footer .card4 {
+    width: 22vh;
+}
+
+.copyright {
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 17%
+}
+
+
+/* service pag */
+.service {
+    position: relative;
+    height: 70vh;
+    margin-top: -10rem;
+}
+
+.hero h2 {
+    margin-top: -10rem;
+}
+
+.service .container-about {
+    margin-top: 10rem;
+    height: 50vh;
+}
+
+.service .container-about .image1 {
+    margin-left: 14rem;
+}
+
+.service .container-about img{
+    width: 500px;
+    margin-top: 8rem;
+    margin-left: -1rem;
+}
+
+.caption-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.hero .container-about {
+    height:80vh;
+}
+
+.caption-service .list {
+    width: 20vh;
+}
+
+.container-about .caption-service .list{
+    width: 27%;
+    height: 35vh;
+}
+
+.container-about .caption-service .list img{
+    width: 130px;
+    margin-left: 2rem;
+}
+
+/* portfolio page */
+
+.portfolio{
+    height: 120vh;
+}
+
+.portfolio .container {
+    position: absolute;
+    top: 0;
+}
+
+.portfolio .container h1 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 165, 153);
+    padding-bottom: 1rem;
+}
+
+.portfolio .container h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(209, 114, 5);
+    text-transform: capitalize;
+}
+
+
+.portfolio .container .container-card {
+    /* background-color: #ffffff; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.portfolio .container .container-card .card {
+    position: relative;
+    width: 28.5vh;
+    height: 15vh;
+    border: 2px solid #ff0000;
+    transition: 300ms;
+    background-color: #ffffff;
+}
+
+.portfolio .container .container-card .card-0 {
+    position: relative;
+    /* background-color: yellowgreen; */
+    width: 28.5vh;
+    transform: scaleY(0);
+}
+
+.portfolio .container .container-card .card a img {
+    width: 252px;
+    margin-left: -12px;
+    margin-top: 0.1rem;
+    padding: 0 1.3rem;
+}
+
+.portfolio .container .container-card .card p {
+    position: absolute;
+    width: 100%;
+    height: 4.1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -3.5rem;
+    margin-left: -0.2px;
+    background-color: white;
+    padding-top: 1rem;
+}
+
+.portfolio .container .container-card .card:hover {
+    scale: 1.2;
+}
+
+/* contact pag */
+.contact{
+    height: 60vh;
+}
+.contact .container-card .card {
+    width: 18%;
+}
+
+.contact .container-card .card img {
+    width: 100px;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+    margin-left: 1.5rem;
+}
+
+.contact .container-card .card h5 {
+    padding-top: 6rem;
+    font-size: 1.2rem;
+}
+
+/* about page*/
+.about .content {
+    display: flex;
+    align-items: center;
+}
+.about .content .caracter  img {
+    width: 300px;
+}
+
+}
+
+
+
+
+/* mobile */
+@media (max-width:575.98px){
+    html {
+        font-size: 45%;
+    }
+
+    /* navbar */
+    .navbar .nav-box .logo img {
+        width: 120px;
+    }
+
+    .navbar .nav-box .feather {
+        width: 45px;
+    }
+
+    /* hero */
+    .hero{
+        height: 100vh;
+    }
+
+    .hero .container .caption{
+        margin-top: 10rem;
+    }
+
+
+.image-box1 img{
+    position: absolute;
+    width: 190px;
+    margin-top: -10rem;
+    margin-left: 10rem;
+    animation: animasiroket 1.5s ease-in-out infinite alternate;
+}
+.image .image-box {
+    margin: 0 10%;
+    margin-top: 5rem;
+}
+
+.image .image-box .bable img {
+    position: absolute;
+    width: 350px;
+    margin-left: 5rem;
+    margin-top: 9rem;
+    z-index: -1;
+}
+
+.image .image-box img {
+    position: absolute;
+    width: 450px;
+    z-index: -1;
+    margin-left: -1rem;
+    margin-top: 6rem;
+}
+
+
+/* digital */
+.digital {
+    margin-top:-50rem;
+    height: 115vh;
+}
+
+.ilustrasi img {
+    margin-left: -1rem;
+}
+
+.digital .tittle {
+    margin-top: -5rem;
+}
+
+.digital .tittle p {
+    font-size: 1.8rem;
+}
+
+.container2 .text ul {
+    font-size: 1.5rem;
+    width: 160%;
+    padding-left: 4rem;
+}
+
+
+
+/* work */
+.work {
+    height: 110vh;
+}
+
+.work .container2 .card img {
+    margin-left: 29%;
+}
+
+.work .container2 .card h4 {
+    font-size: 1.8rem;
+}
+
+.work .container2 .card p {
+    font-size: 1.5rem;
+}
+
+.work .container2 .card ul {
+    font-size: 1.5rem;
+}
+
+/* choose */
+.choose {
+    height: 130vh;
+    
+}
+
+.choose .tittle {
+    margin-top: 40rem;
+    margin-bottom: -45rem;
+}
+
+.choose .container2 {
+    margin-top: 59rem;
+    margin-bottom: -50rem;
+    gap: 8rem;
+}
+
+.choose .container2 .card1 {
+    height: 18vh;
+}
+
+.choose .container2 .card1 p {
+    font-size: 1.5rem;
+}
+
+.choose .container2 .card1 img {
+    width: 140px;
+    margin-left: 7rem;
+}
+
+.choose .container2 .card1 h4 {
+    font-size: 1.8rem;
+    
+}
+
+.choose .cta {
+    margin-top: 120rem;
+}
+
+/* footer */
+footer{
+    height: 35vh;
+    }
+
+.container3 {
+    height: 10vh;
+    margin-top: -5rem;
+    }
+
+.container3 .card {
+    width: 19%;
+}
+.copyright {
+    margin-left: 8rem;
+    width: 70%;
+}
+
+.card4 p{
+    width: 20vh;
+    height: fit-content;
+    padding-left: 5rem;
+}
+
+
+
+/* service page */
+    .service .container-about img{
+    width: 400px;
+    margin-top: 7rem;
+    margin-left: -3rem;
+}
+
+.hero h2 {
+    margin-top: -25rem;
+}
+
+.caption-service {
+    margin-top: -30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8rem;
+}
+    .container-about .caption-service .list{
+        width: 48%;
+        height: 30vh;
+    }
+
+    .container-about .caption-service .list img {
+        margin-left: 10rem;
+    }
+
+    .container-about .caption-service .list ul{
+        margin-left: 5rem;
+    }
+
+    .container-about .caption-service .list ul li {
+        font-size: 1.5rem;
+    }
+
+    /* portfolio */
+    .portfolio {
+        height: 200vh;
+    }
+
+    .portfolio .container {
+        font-size: 50%;
+        position: absolute;
+        top: 0;
+        margin-top: 10rem;
+    }
+
+    .portfolio .container .container-card .card {
+        background-color: hsl(0, 0%, 100%);
+        width: 49.7%;
+        height: 15.9vh;
+    }
+
+
+    .portfolio .container .container-card .card a img {
+        margin-left: -1.1rem;
+        width: 106.6%;
+    }
+
+
+    /* about page */
+    .about {
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .about .container {
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .about .container h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgb(16, 165, 153);
+        text-transform: uppercase;
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    .about .content {
+        display: flex;
+        align-items: center;
+    }
+
+    .about .content .caracter  img {
+        width: 200px;
+    }
+    
+    .about .container .text h2 {
+        text-transform: capitalize;
+        color:rgb(209, 114, 5);
+        margin-top: 4rem;
+        margin-left: 3rem;
+        font-size: 2rem;
+    }
+    
+    .about .container .text h4 {
+        color:rgb(209, 114, 5);
+        text-transform: capitalize;
+        padding: 2rem 3rem;
+        font-size: 1.5rem;
+    }
+    
+    
+    .text ul {
+        margin-top: -2rem;
+    }
+    .text ul li p {
+        color:rgb(0, 0, 0);
+        font-size: 1.5rem;
+        margin-left: 3rem;
+        width: 100%;
+    }
+    
+    .about .container .image{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about .container .image img {
+        width: 550px;
+        margin-top: 5rem;
+    }
+
+    /* contact page */
+    .contact .container-card .card img {
+        width: 90px;
+        margin-left: 0.5rem;
+    }
+
+    .contact .container-card .card a h5 {
+        font-size: 1.2rem;
+    }
+
+
+}
