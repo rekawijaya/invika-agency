@@ -714,7 +714,7 @@ footer .container3 .card p{
     font-size: 1.2rem;
     margin-top: -5.4rem;
     margin-left:0rem;
-    padding-top: 1.5rem;
+    padding-top: 1.5%;
     background-color: rgba(255, 255, 254, 0.932);
 }
 
@@ -1173,7 +1173,7 @@ footer .card4 {
 }
 
 .contact .container-card .card img {
-    width: 100px;
+    width: 80%;
     margin-top: 2rem;
     margin-bottom: -5rem;
     margin-left: 1.5rem;
@@ -1185,12 +1185,31 @@ footer .card4 {
 }
 
 /* about page*/
+.about .container .image {
+    background-color: yellow;
+}
+
+.about .container .image img {
+    width: 80%;
+}
+
+.content {
+    background-color: yellowgreen;
+}
+.content .text {
+    background-color: #ff0000;
+    width: 100%;
+}
 .about .content {
     display: flex;
     align-items: center;
 }
-.about .content .caracter  img {
-    width: 300px;
+.about .content .caracter {
+    width: 50%;
+}
+
+.about .content .caracter img {
+    width: 99%;
 }
 
 }
@@ -1436,24 +1455,24 @@ footer{
     gap: 8rem;
 }
     .container-about .caption-service .list{
-        width: 48%;
-        height: 30vh;
+        width: 55%;
+        height: 31vh;
     }
 
     .container-about .caption-service .list img {
-        width: 50%;
-        margin-left: 10rem;
+        width: 46%;
+        margin-left: 9rem;
         margin-top: -3rem;
     }
 
     .container-about .caption-service .list h3 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-top: -3rem;
     }
 
     .container-about .caption-service .list ul{
-        width: 95%;
-        margin-left: 5rem;
+        width: 85%;
+        margin-left: 2rem;
     }
 
     .container-about .caption-service .list ul li {
@@ -1478,6 +1497,12 @@ footer{
         height: 15.9vh;
     }
 
+    .portfolio .container .container-card .card p{
+        background-color: rgb(238, 0, 0);
+        margin-top: 4%;
+        padding-bottom: 1%;
+    }
+
 
     .portfolio .container .container-card .card a img {
         margin-left: -1.1rem;
@@ -1488,7 +1513,7 @@ footer{
     /* about page */
     .about {
         width: 100%;
-        height: 150vh;
+        height: 170vh;
     }
     
     .about .container {
@@ -1512,7 +1537,8 @@ footer{
     }
 
     .about .content .caracter  img {
-        width: 200px;
+        width: 90%;
+        margin-left: 7%;
     }
     
     .about .container .text h2 {
@@ -1528,6 +1554,11 @@ footer{
         text-transform: capitalize;
         padding: 2rem 3rem;
         font-size: 1.5rem;
+    }
+
+    .content .text {
+        width: 50%;
+        margin-left: -3rem;
     }
     
     
@@ -1547,18 +1578,18 @@ footer{
     }
     
     .about .container .image img {
-        width: 550px;
+        width: 90%;
         margin-top: 5rem;
     }
 
     /* contact page */
     .contact .container-card .card img {
-        width: 90px;
+        width: 90%;
         margin-left: 0.5rem;
     }
 
     .contact .container-card .card a h5 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
 }
