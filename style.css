@@ -1281,7 +1281,7 @@ footer .card4 {
 /* digital */
 .digital {
     width: 100%;
-    height: 145vh;
+    height: 135vh;
 }
 
 .ilustrasi {
@@ -1336,13 +1336,12 @@ footer .card4 {
 /* choose */
 .choose {
     width: 100%;
-    height: 180vh;
-    margin-top: -10rem;
+    height: 170vh;
     
 }
 
 .choose .tittle {
-    margin-top: 40rem;
+    margin-top: 20rem;
     margin-bottom: -45rem;
 }
 
@@ -1377,7 +1376,7 @@ footer .card4 {
     width: 65%;
     margin-top: -9rem;
     margin-bottom: 1rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
 }
 .choose .container2 .card1 {
     height: 18vh;
@@ -1391,7 +1390,7 @@ footer .card4 {
 
 .choose .container2 .card1 img {
     width: 70%;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-bottom: -4rem;
 }
 
@@ -1435,7 +1434,7 @@ footer{
     .service .container-about img{
     width: 120%;
     margin-top: 7rem;
-    margin-left: -6rem;
+    margin-left: -8rem;
 }
 
 .hero h2 {
@@ -1455,10 +1454,10 @@ footer{
     }
 
     .container-about .caption-service .list img {
-        width: 46%;
+        width: 49%;
         margin-left: 6rem;
-        margin-top: -2rem;
-        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
     }
 
     .container-about .caption-service .list h3 {
@@ -1469,7 +1468,7 @@ footer{
     .container-about .caption-service .list ul{
         width: 85%;
         height: 10vh;
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
 
     .container-about .caption-service .list ul li {
@@ -1513,7 +1512,7 @@ footer{
     /* about page */
     .about {
         width: 100%;
-        height: 170vh;
+        height: 180vh;
     }
     
     .about .container {
@@ -1580,9 +1579,15 @@ footer{
     .about .container .image img {
         width: 90%;
         margin-top: 5rem;
+        margin-left: -3rem;
     }
 
     /* contact page */
+    .contact {
+        width: 100%;
+        height: 100vh;
+    }
+
     .contact .container-card .card img {
         width: 90%;
         margin-left: 0.5rem;
